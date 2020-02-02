@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html,
+body {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+h1,h3,h5,p, input{
+font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FBFBFF;
+}
+a{
+  cursor:pointer;
+}
+.icones{
+  color:rgb(231, 231, 231)
+}
+ul {
+  list-style: none;
+}
+img{
+  height: 100px;
+}
+/*# sourceMappingURL=main.css.map */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html,
+body {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+h1,h3,h5,p, input{
+font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FBFBFF;
+}
+a{
+  cursor:pointer;
+}
+.icones{
+  color:rgb(231, 231, 231)
+}
+ul {
+  list-style: none;
+}
+img{
+  height: 100px;
+}
+/*# sourceMappingURL=main.css.map */

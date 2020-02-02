@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>ESQUENTA - drinking game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="imgs/favicon.png" />
+</head>
+
+<body style="background-image: linear-gradient(45deg, #e33031 , #c05621);">
+    <!---<div class="row">
+        <div class="col-12">
+            aaaaaaaaaaaa
+        </div>
+    </div>-->
+    <div class="container-fluid text-center">
+        <div class="logo container-fluid mb-5">
+            <img style="height: 100px" src="imgs/esquenta_lgw.png" alt="logo">
+            <h1 style="letter-spacing: 6px; font-weight: bold; color:white">ESQUENTA</h1>
+            <h3 class="icones">drinking game</h3>
+        </div>
+        <div id="divzin" class="container text-center card" style="flex: 1; background-color: rgba(255,255,255,0.07);">
+
+            <div class="players container text-center card-body" id="playersDiv" style="background: transparent">
+                <h5 class="icones mt-2">Jogadores</h5>
+                <div class="container text-center">
+                    <ul id="nameInputList">
+                        <li>
+                            <input type="text" placeholder="Nome do Jogador" id="playerId"
+                                class="playerName form-control mb-3">
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="container controle text-center " style="background: transparent">
+                    <a id="addPlayerBtn" onclick="aaddPlayer()" class="mr-5"><i class="material-icons icones">
+                            add
+                        </i></a>
+                    <a id="play" onclick="play()"><i class="material-icons icones">
+                            play_arrow
+                        </i></a>
+                </div>
+            </div>
+
+            <div class="container text-center" id="gamediv" style="background-color:transparent">
+                <p id="gamep" class="mt-5 mb-4 icones"></p>
+                <div class="container text-center mb-3">
+                    <a onclick="getRandChallengeDone()" class="mr-5"><i class="material-icons icones">
+                            done
+                        </i></a>
+                    <a onclick="resetGame()"><i class="material-icons icones">
+                            replay
+                        </i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---<div class="row">
+        <div class="col-12">
+            
+        </div>
+    </div>-->
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="/__/firebase/7.3.0/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
