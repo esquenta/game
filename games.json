@@ -1,5 +1,5 @@
 {
-    "games":{
+    "games":[
         "Desafios":{
             "id": 1,
             "file": "desafios.json",
@@ -12,6 +12,6 @@
             "title": "Verdade",
             "background-color": "#CB5919"
         }
-    }
+    ]
 
 }
