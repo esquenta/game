@@ -4,13 +4,13 @@
             "id": 1,
             "file": "desafios.json",
             "title": "Desafios",
-            "background-color": "#BA420E"
+            "background": "#BA420E"
         },
         {
             "id": 2,
             "file": "verdade.json",
             "title": "Verdade",
-            "background-color": "#CB5919"
+            "background": "#CB5919"
         } 
     ]
 
