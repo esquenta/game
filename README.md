@@ -1,4 +1,5 @@
-# Esquenta
+# Esquenta - Drinking Game
+
 # Sobre o Jogo
 Esquenta é um jogo de verdade ou desafio criado por Guilherme Guatura.
 a primeira versão dele foi o app da web http://esquenta.github.io/game,
