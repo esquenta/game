@@ -1,12 +1,12 @@
 {
     "games":[
-        "Desafios":{
+        "Desafios": {
             "id": 1,
             "file": "desafios.json",
             "title": "Desafios",
             "background-color": "#BA420E"
         },
-        "Verdade":{
+        "Verdade": {
             "id": 2,
             "file": "verdade.json",
             "title": "Verdade",
