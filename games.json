@@ -2,13 +2,13 @@
     "games":[
         {
             "id": 1,
-            "file": "desafios.json",
+            "file": "/desafios.json",
             "title": "Desafios",
             "background": "#BA420E"
         },
         {
             "id": 2,
-            "file": "verdade.json",
+            "file": "/verdade.json",
             "title": "Verdade",
             "background": "#CB5919"
         } 
