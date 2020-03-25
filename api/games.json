@@ -5,13 +5,13 @@
             "id": 1,
             "file": "/desafios.json",
             "title": "Desafios",
-            "background": "#BA420E"
+            "background": "#BC5100"
         },
         {
             "id": 2,
             "file": "/verdade.json",
             "title": "Verdade",
-            "background": "#EFA617"
+            "background": "#FFB04C"
         } 
     ]
 
